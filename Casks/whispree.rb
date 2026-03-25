@@ -12,6 +12,10 @@ cask "whispree" do
 
   app "Whispree.app"
 
+  postflight do
+    system "xattr", "-cr", "#{appdir}/Whispree.app"
+  end
+
   zap trash: [
     "~/Library/Preferences/com.whispree.app.plist",
   ]
