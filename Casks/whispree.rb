@@ -1,6 +1,6 @@
 cask "whispree" do
-  version "0.0.18"
-  sha256 "0398bedb02e391b4bdbdfed98aa8eccd253986b3b708ce233afcdaf0a936aa04"
+  version "0.0.19"
+  sha256 "76d6ccc91ed3384ec188f55e42bbefb4bed60e42dd9f03b10d29b7030f20f01a"
 
   url "https://github.com/Arsture/whispree/releases/download/v#{version}/Whispree.zip"
   name "Whispree"
